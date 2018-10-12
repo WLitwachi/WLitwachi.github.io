@@ -1,0 +1,123 @@
+
+.topnav {
+    background-color: 	#C0C0C0;
+    overflow: hidden;
+    /*display: inline-block;*/
+    position: relative;
+    left: 0px;
+
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color:  rebeccapurple;
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color:  #005960;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #672E3B;
+    color: white;
+    text-align: center;
+}
+
+
+/*second bar*/
+.toppnav {
+    background-color: rebeccapurple;
+    overflow: hidden;
+    /*display: inline-block;*/
+    position: relative;
+    left: 0px;
+
+
+}
+
+/* Style the links inside the navigation bar */
+.toppnav a {
+    float: right;
+    display: block;
+    color: White;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.toppnav a:hover {
+    background-color:  #fa5903;
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color:  #005960;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.toppnav .icon {
+    display: none;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: rebeccapurple;}
+
+
