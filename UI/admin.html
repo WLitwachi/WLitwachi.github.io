@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Store Manager - UI</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="main">
+        <!-- sidebar -->
+        <div class="sidebar col-3 navbar-primary full-height mobi-hide">
+            <!-- logo -->
+            <div>
+                <a href="#">
+                    <img class="fadeIn sidebar__logo-backend" src="./assets/img/Admin-Team.jpg" alt="logo">
+                </a>
+            </div>
+            <!-- ./logo -->
+            <div class="sidebar-items">
+                <ul class="sidebar-items__nav nav column">
+                    <li class="sidebar-items__nav--active">
+                        <a class="active-text">
+                            <img class="icon" src="./assets/img/sales.png" />
+                            <span class="sidebar-items__text">Sales</span>
+                        </a>
+                    </li>
+                    </li>
+                    <li class="">
+                        <a href="ask.html">
+                            <img class="icon" src="./assets/img/use.jpeg" />
+                            <span class="sidebar-items__text">staff</span>
+                       </a>
+                    </li>
+                    <li>
+                        <a href="profile.html">
+                            <img class="icon" src="./assets/img/user.svg" />
+                            <span class="sidebar-items__text">Profile</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- ./sidebar -->
+        <div class="body-wrapper col-10 ">
+            <!-- navbar -->
+            <div class="navbar bg-white navbar-primary p-0 navbar-fixed-top">
+                    <div class="container">
+                        <div class="pull-left">
+                            <ul class="nav text-center">
+                                <li>
+                                    <div class="form-group  mobi-hide">
+                                        <img class="icon input-icon" src="./assets/img/loupee.svg" />
+                                        <input class="input-control input-icon-group" type='text' placeholder="Search..">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="pull-right">
+                            <ul class="nav">
+                                <li>
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="floating">+Product</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="floating">+store Attendant</a>
+                                </li>
+
+                                <li>
+                                    <a href="index.html" class="btn btn-round mt--5 bg-orange">
+                                        Log out
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            <!-- ./navbar -->
+        </div>
+
+         <h2>My Customers</h2><br><br>
+            <!--<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">-->
+
+            <table id="myTable">
+              <tr class="header">
+                <th style="width:60%;">Product</th>
+                <th style="width:40%;">Quantity</th>
+              </tr>
+              <tr>
+                <td>Hp Laptop</td>
+                <td>50 Pieces</td>
+              </tr>
+              <tr>
+                <td>Hp Printers</td>
+                <td>15 Pieces</td>
+              </tr>
+              <tr>
+                <td>Dell Laptops</td>
+                <td>30 Pieces</td>
+              </tr>
+              <tr>
+                <td>Macbook Pro</td>
+                <td>10 Pieces</td>
+              </tr>
+              <tr>
+                <td>Macbook Air</td>
+                <td>10 Pieces</td>
+              </tr>
+              <tr>
+                <td>Sony Camera</td>
+                <td>15 Pieces</td>
+              </tr>
+              <tr>
+                <td>Kaspesky Antivirus</td>
+                <td>60 Pieces</td>
+              </tr>
+              <tr>
+                <td>External Hardisk</td>
+                <td>20 Pieces</td>
+              </tr>
+
+            </table>
+
+    </div>
+
+</body>
+
+<script src="./js/main.js"></script>
+</html>
